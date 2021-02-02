@@ -1,5 +1,5 @@
-﻿# CPNT 260: Web Design Fundamentals
-By Xia Lin January 28��2021
+﻿# CPNT 260 Assignment 2: Card content block
+By Xia Lin February 1, 2021
 
 ## Description
 A website for online sales of high-end furniture!
@@ -14,8 +14,8 @@ A website for online sales of high-end furniture!
 - [accent-table.jpg](https://www.pexels.com/photo/white-and-black-desk-beside-bed-and-window-439227/"accent-table.jpg") by Medhat Ayad.
 
 ## Links
-- GH repo: https://github.com/linxia25/cpnt260-a1
-- GH Pages site: https://linxia25.github.io/cpnt260-a1/
+- GH repo: https://github.com/linxia25/cpnt260-a2.git
+- GH Pages site: https://linxia25.github.io/cpnt260-a2/
 
 ## File/directory
 - /css
