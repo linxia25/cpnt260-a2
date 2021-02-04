@@ -1,22 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 body {
-max-width: 1200px; 
-min-height: 100vh;
-margin: auto;
+  margin: 0 auto;
+  width: 50vw;
+  
 }
 
+.logo {
+margin-top: 3vh;
+}
+
+.site-name {
+  font-size: 21px;
+  font-family: ubuntu;
+  color: rgb(253, 48,25);
+}
 
 /*font*/
 h2 {
-  color: orange;
   font-family: 'open sans';
+  color: orange;
 }
 
 p {
+  max-width: 75ch;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 95ch;
 }
 
 li {
@@ -25,16 +35,19 @@ li {
 }
 
 /*navigation,Mobile First*/
-
-nav div {
-  
-  margin-top: 2vh;
+nav{
+  margin-top: 3vh;
 }
+nav div { 
+  margin-bottom: 1vw;
+}
+
 nav div a {
   width: fit-content;
+  
   color: black;
   font-size: 24px;
-  line-height: 35px;
+  
   text-decoration: none;
 }
 
@@ -52,54 +65,52 @@ a:active {
 
 @media screen and (min-width: 600px) {
 nav {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
 }
   
 nav a {
-    color: black;
-    font-size: 24px;
-    line-height: 50px;
-    display: block;
-    text-decoration: none;
-
-    margin-right: 50px;
+  margin-right: 3vw;
+  
+  color: black;
+  font-size: 24px;
+  
+  display: block;
+  text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     color: red;
   }
   
-  a:active {
-    color: orange;
+a:active {
+  color: orange;
   }
   
-  .register {
-    background-color: orange;
+.register {
+  background-color: orange;
   }
-}
   
 
 /*Employees Testimonials*/
-
 .et {
   display:flex;
   height: fit-content;
 }
 
 .et span {
-  flex:1;
-  font-size: 25px;
-  padding: 25px 25px;
-  background-color: #fff7e6;
   margin-right: 10px;
+  flex:1;
+  padding: 25px 25px;
 
+  font-size: 25px;
+  
+  background-color: #fff7e6;
 }
 
 /*Gallery*/
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -126,7 +137,6 @@ nav a {
 }
 
 /*More Information*/
-
 .more {
   margin-top: 25px;
   text-align: center;
@@ -142,14 +152,15 @@ nav a {
   text-decoration: none;
 }
 
+/*Footer*/
 footer {
+  margin-top: 50px;
   height: 50px;
-  background-color: dimgray;
-  
-  text-align: center;
-  margin-top: 25px;
 
   color: white;
   font-size: 20px;
   line-height: 50px ;
+
+  background-color: dimgray;
+  text-align: center;
 }
